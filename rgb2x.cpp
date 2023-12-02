@@ -7,7 +7,6 @@ unsigned int rgb(unsigned int r, unsigned int g, unsigned int b);
 unsigned int x2rgb(unsigned int x);
 unsigned int manhattan_distance(unsigned int rgb1, unsigned int rgb2);
 
-// TODO
 int main(int argc, char** argv)
 { for (unsigned int i = 1; i < argc; i++)
   { std::printf("%02d: %s", i, argv[i]);
